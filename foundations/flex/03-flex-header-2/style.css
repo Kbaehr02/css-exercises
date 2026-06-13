@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -23,6 +26,7 @@ body {
 }
 
 .logo {
+  justify-self: end;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -45,4 +49,6 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
 }
