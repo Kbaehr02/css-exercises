@@ -16,13 +16,29 @@ body {
 }
 
 .modal {
+  display: flex;
+  flex-direction: row;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.container{
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container .header{
+  font-weight: bold;
+}
+
 .icon {
+  margin: 15px;
+  flex-shrink: 0;
+  flex-grow: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -39,7 +55,7 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 1000;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -48,6 +64,9 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin: 15px;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 button {

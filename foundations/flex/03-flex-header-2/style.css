@@ -26,7 +26,6 @@ body {
 }
 
 .logo {
-  justify-self: end;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -34,6 +33,7 @@ body {
 }
 
 button {
+  margin-left: auto;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -48,6 +48,7 @@ a {
 }
 
 ul {
+  margin-right: auto;
   list-style-type: none;
   display: flex;
   flex-direction: row;
